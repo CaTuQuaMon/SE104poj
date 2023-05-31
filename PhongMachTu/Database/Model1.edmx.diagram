@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f6300caabf44ab28298b1d9fe9410f1" Name="Diagram1">
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.BenhNhan" Width="1.5" PointX="5.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.CachDungThuoc" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.ChiDinhDungThuoc" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.ChiTietD" Width="1.5" PointX="8" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.ChiTietThongKeThuoc" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.DanhSachKhamBenh" Width="1.5" PointX="5.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.DonViThuoc" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.HoaDon" Width="1.5" PointX="10.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.NhanVien" Width="1.5" PointX="7.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.PhieuKhamBenh" Width="1.5" PointX="8" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.QuyDinh" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.ThongKeThuoc" Width="1.5" PointX="2.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLYPHONGKHAMTUModel.Thuoc" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_CTDS_MaBN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_PKB_MaBN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_CDDT_MaCachDung" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_CDDT_MaDonVi" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_CDDT_MaThuoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_CTTKT_MaThuoc" ManuallyRouted="false" />
+        <AssociationConnector Association="QLYPHONGKHAMTUModel.FK_HD_MaPK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
